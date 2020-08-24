@@ -1,0 +1,392 @@
+/* 
+#d50000 - фон шапки
+#ebebeb - фон тела
+#4c4c4c - фон меню
+#d9d9d9 - фон контента
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: normal 150% 'mr_BenzaG';
+	letter-spacing: 1px;
+	color: white;
+	background-color: #ebebeb;
+}
+
+a, a:hover{
+	outline: none;
+	text-decoration: none;
+	color: white;
+}
+
+
+.header{
+	height: 150px;
+	min-width: 1200px;
+	background-color: #ea0000;
+	font-size: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.logo h1{
+	height: 50px;
+	width: 400px;
+	padding: 1% 0 15px 10%;
+	font-size: 2em;
+
+}
+
+.logo h3{
+	height: 30px;
+	width: 400px;
+	background-color:;
+	padding: 0 0 0 15%;
+}
+
+
+
+/* позвонить курьеру */
+.callnumber{
+	width: 300px;
+	height: 150px;
+	float: right;
+	margin-right:15%;
+}
+.callnumber h4{
+	font: normal 140% 'Arial';
+	margin: 10% 0 0 0;
+
+}
+
+input[class=btn1]{
+	width: 300px;
+	height: 40px;
+	margin: 3% 0 0 0;
+	font:normal 100% 'century gothic';
+	letter-spacing: 1px;
+}
+
+
+
+/* поиск посылки */
+.tracknumber{
+	width: 300px;
+	height: 150px;
+	float: right;
+	margin-right: 10%;
+}
+
+.tracknumber h4{
+	font-size: 150%;
+	letter-spacing: 5px;
+	margin: 8% 0 0 0;
+
+}
+
+input[class=btn2]{
+	width: 70px;
+	height: 40px;
+	margin: 3% 0 0 0;
+	font:normal 60% 'century gothic';
+	letter-spacing: 2px;
+}
+
+input[name=search_field]{
+	width: 210px;
+	height: 40px;
+	margin: 3% 0 0 0;
+	font:normal 60% 'century gothic';
+	letter-spacing: 1px;
+}
+
+
+
+/*меню*/
+.contentmenu{
+	min-width: 900px;
+	height: 70px;
+	background-color: #4c4c4c;
+	margin: 3% 0 0 0;
+}
+
+ul.menu{
+	width:1700px;
+	height:70px;
+	margin: 0 0 0 20%;
+
+}
+
+ul.menu li{
+	float: left;
+	padding: 0 0 0 0;
+	list-style: none;
+	padding: 17px 0 0 100px;
+}
+
+ul.menu li a:hover {
+	color: #d50000;
+}
+
+
+
+/*контент*/
+.site_content{
+	width: 1800px;
+	height:1250px;
+	margin: 5% auto 0 auto;
+
+}
+
+.site_container{
+
+}
+
+.sidebar{
+	float: right;
+	width: 490px;
+	height:1114px;
+	padding: 7% 0 0 0;
+	background-color: #d9d9d9;
+	border: 2px dashed #4c4c4c;
+	border-radius: 20px;
+}
+
+/*правый блок*/
+/*поле входа*/
+.enter{
+	width:400px;
+	height: 220px;
+	margin: 2% 0 0 8%;
+	padding: 2% 0 0 0;
+	background-color: #d50000;
+	border: 5px solid #4c4c4c;
+	border-radius: 10px;
+}
+
+.enter h2{
+	margin: 0 0 0 10%;
+}
+
+input[name=login_field],
+input[name=password_field]
+{
+	width: 300px;
+	height: 40px;
+	margin: 3% 0 0 10%;
+	font:normal 80% 'century gothic';
+	letter-spacing: 1px;
+}
+
+input[class=btn3]{
+	width: 70px;
+	height: 40px;
+	margin: 3% 0 0 10%;
+	font: normal 80% 'mr_BenzaG';
+	letter-spacing: 2px;
+}
+
+
+/*быстрый расчет*/
+.calculator{
+	width:400px;
+	height: 280px;
+	margin: 2% 0 0 8%;
+	padding: 2% 0 0 0;
+	background-color: #d50000;
+	border: 5px solid #4c4c4c;
+	border-radius: 10px;
+}
+
+.calculator h2{
+	margin: 0 0 0 10%;
+}
+
+input[name=pointA], 
+input[name=pointB],
+input[name=weight]{
+	width: 300px;
+	height: 40px;
+	margin: 3% 0 0 10%;
+	font:normal 80% 'century gothic';
+	letter-spacing: 2px;
+}
+
+input[class=btn4]{
+	width: 100px;
+	height: 40px;
+	margin: 3% 0 0 10%;
+	font: normal 80% 'mr_BenzaG';
+	letter-spacing: 2px;
+}
+
+
+/*новости*/
+.news{
+	width:400px;
+	height: 270px;
+	margin: 2% 0 0 8%;
+	padding: 2% 0 0 0;
+	background-color: #d50000;
+	border: 5px solid #4c4c4c;
+	border-radius: 10px;
+}
+
+.news h2{
+	margin: 0 0 0 10%;
+}
+
+.news p{
+	margin: 0 0 0 10%;
+	font-size: 1.2em;
+}
+
+input[class=btn5]{
+	width: 300px;
+	height: 60px;
+	margin: 5% 0 0 10%;
+	font: normal 80% 'mr_BenzaG';
+	letter-spacing: 2px;
+}
+
+input[value="Читать!"]{
+	font-size: 1.5em;
+}
+
+
+
+
+/* Основная информация */
+.content{
+	width:1300px;
+	height: 1240px;
+	text-align: center;
+	font: normal 90% 'century gothic';
+	background-color: #d9d9d9;
+	border: 2px dashed #4c4c4c;
+	border-radius: 20px;
+}
+
+.content h2{
+	padding: 5% 0 3% 0;
+	font-size: 2em;
+	color:#292929;
+}
+
+
+.content_info{
+	width: 600px;
+	margin: 5% auto 0 auto;
+}
+
+.paragraph1, 
+.paragraph2, 
+.paragraph3,
+.paragraph4, 
+.paragraph5{
+	width: 650px;
+	height: 60px;
+	background-color:#d50000;
+	border-radius: 20px;
+}
+
+.paragraph1 h3, 
+.paragraph2 h3, 
+.paragraph3 h3,
+.paragraph4 h3, 
+.paragraph5 h3{
+	padding: 2% 0 0 0;
+}
+
+
+
+
+
+
+/*подвал*/
+.footer{
+	min-width: 1200px;
+	height: 360px;
+	background-color: #d50000;
+	font:normal 80% 'Arial';
+}
+
+.footer_block{
+	width: 1500px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+}
+
+.menu1{
+	width: 300px;
+	height: 300px;
+	background-color:;
+	display: inline-block;
+	font:normal 100% 'Arial';
+
+}
+
+.menu1 h2{
+	padding: 5% 0 0 20%;
+	font-size: 3em;
+}
+
+.menu1 p{
+	padding: 5% 0 0 0;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.menu2{
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	float: right;
+	margin:0 0 0 0%;
+}
+
+.menu2 h2{
+	padding: 5% 0 0 0;
+	text-align: center;
+
+}
+
+.menu2 h5, h4, h3{
+	text-align: center;
+}
+
+.menu2 p{
+	font-size: 1em;
+	text-align:center;
+}
+
+.menu2 hr{
+	width: 200px;
+	margin: 3% 0 2% 25%;
+}
+
+.menu3{
+	width: 400px;
+	height: 330px;
+	display: inline-block;
+	float: right;
+	margin:0 13% 0 0;
+}
+
+ul.info li{
+	padding: 5% 0 0 0;
+	text-align: center;
+	list-style: none;
+}
+
+ul.info li a:hover {
+	text-decoration: underline;
+}
+
+
+
